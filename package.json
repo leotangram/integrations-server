@@ -1,0 +1,11 @@
+{
+  "name": "integrations-server",
+  "version": "1.0.0",
+  "description": "Proyecto de integración continua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Los de integración",
+  "license": "ISC"
+}
