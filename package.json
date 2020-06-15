@@ -4,7 +4,8 @@
   "description": "Trabajo para la materia Integración Continua",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src",
+    "dev": "nodemon ./src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/leotangram/integrations-server/issues"
   },
-  "homepage": "https://github.com/leotangram/integrations-server#readme"
+  "homepage": "https://github.com/leotangram/integrations-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9"
+  }
 }
