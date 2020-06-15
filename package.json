@@ -1,0 +1,19 @@
+{
+  "name": "integrations-server",
+  "version": "1.0.0",
+  "description": "Trabajo para la materia Integración Continua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leotangram/integrations-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leotangram/integrations-server/issues"
+  },
+  "homepage": "https://github.com/leotangram/integrations-server#readme"
+}
