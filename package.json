@@ -2,10 +2,31 @@
   "name": "integrations-server",
   "version": "1.0.0",
   "description": "Proyecto de integración continua",
+  "author": "Los de integración",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src",
+    "dev": "nodemon ./src"
   },
-  "author": "Los de integración",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leotangram/integrations-server.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leotangram/integrations-server/issues"
+  },
+  "homepage": "https://github.com/leotangram/integrations-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9"
+  }
 }
